@@ -1,0 +1,10 @@
+body{background-image: linear-gradient(to right, hsl(240, 24%, 96%), rgb(67, 159, 234));}
+h1{font-style: italic; text-align: center; color: black;}
+h2{font-style: italic; text-align: center; color: black;}
+h3{font-style: italic; text-align: justify; color: black;}
+li{font-style: italic; text-align: justify; color: black;}
+div,  iframe, p{display: inline-block;}
+.container{ text-align: left;font-style: italic;color: black;}
+div, img{display: above;}
+head, h1{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-image: linear-gradient(to right, hsl(240, 14%, 93%), rgb(14, 124, 214));}
+h2{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-image: linear-gradient(to right, hsl(240, 14%, 93%), rgb(14, 124, 214));}
