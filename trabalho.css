@@ -1,0 +1,133 @@
+/* Estilos gerais para todas as páginas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(55, 55, 57);
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilos para as seções do site */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(154, 155, 159, 0.777);
+    border-radius: 5px;
+}
+
+/* Estilos para o formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #212020;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+form input[type="submit"]:hover {
+    background-color:rgb(90, 90, 94);
+}
+
+/* Estilo para a seção de informações de contato */
+.contact-info {
+    
+   
+    display: flex; /* Usando Flexbox para alinhar elementos lado a lado */
+        
+        align
+    
+       
+    align-items: center; /* Alinha verticalmente no centro */
+        
+       
+    gap: 20px; /* Espaço entre a imagem e os detalhes de contato */
+    }
+    
+    /* Estilo para a imagem de contato */
+    .contact-image img {
+        
+       
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho definido */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+    
+    /* Estilo para os detalhes de contato */
+    .contact-details {
+        
+       
+    flex-grow: 1; /* Permite que os detalhes ocupem o espaço restante */
+    }
+    
+    .contact-details h1 {
+        
+       
+    margin: 5px 0; /* Espaço entre os títulos e o texto */
+        
+       
+    font-size: 1.2rem;
+    }
+    
+    .contact-details p {
+        
+       
+    margin: 5px 0; /* Espaço entre os parágrafos */
+        
+       
+    font-size: 1rem;
+    }
+/*formatação dos links*/
+    .container{
+        display: flex;
+        justify-content: center;
+   
+    }
+    .box{
+        width: 15%;
+        font: bold 1.3em sans-serif;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    .box1{background: #6b6b6b;}
+    .box2{background: #2f2f2f;}
+    .box3{background: #191818;}
+    .box4{background: black;}
+

@@ -1,0 +1,75 @@
+/* Estilos gerais para todas as páginas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;  /* Usando Flexbox para centralização vertical */
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+    min-height: 100vh;  /* Garante que o conteúdo ocupe a altura total da tela */
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: black;
+    margin: 0;
+    text-align: center;  /* Centraliza o menu */
+}
+
+nav ul li {
+    display: inline-block;  /* Muda de inline para inline-block para centralização */
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilos para as seções do site */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 600px;  /* Limita a largura máxima das seções */
+    width: 100%;  /* Garante que a largura seja de 100% até o max-width */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Adiciona uma sombra para destaque */
+}
+
+/* Estilos para o formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #eae2e2;
+}
