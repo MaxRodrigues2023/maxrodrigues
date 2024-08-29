@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    background-image: url('BOLO.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+header h1 {
+    margin: 0;
+    font-size: 70px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; 
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'golden';
+    font-size: 20px;
+}
+section#home {
+    background-color: #ffe0b2;
+    
+}
+aside {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffccbc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+footer {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+footer a{
+    color: #fff9c4;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    
+}
+
+#home h2 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: rgb(187, 14, 106);
+}
+#home p {
+    text-align: center;
+
+}
+#bolos h2 {
+    text-align: left;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: rgb(187, 14, 106);
+}
+#bolos p {
+    text-align: left;
+    
+}
+section p {
+    color: rgb(187, 14, 106);
+    font-family: 'golden', cursive;
+}
+ul {
+    color: rgb(187, 14, 106);
+    font-family: 'golden', cursive;
+}
+#doces h2 {
+    text-align: left;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: rgb(187, 14, 106);
+
+}
+#doces p {
+    text-align: left;
+    font-family: 'golden', cursive;
+}
+#bolos ul {
+    font-family: 'golden', cursive;
+}
+aside {
+    font-family: 'golden' cursive;
+}

@@ -36,6 +36,7 @@ section {
     padding: 20px;
     background-color: rgba(154, 155, 159, 0.777);
     border-radius: 5px;
+    font-family: 'golden', cursive;
 }
 
 /* Estilos para o formulário de contato */
@@ -126,8 +127,16 @@ form input[type="submit"]:hover {
         padding: 10px 20px;
         text-align: center;
     }
-    .box1{background: #6b6b6b;}
-    .box2{background: #2f2f2f;}
-    .box3{background: #191818;}
-    .box4{background: black;}
+    .box1{background: #6b6b6b;
+        font-family: 'golden', cursive;
+    }
+    .box2{background: #2f2f2f;
+        font-family: 'golden', cursive;
+    }
+    .box3{background: #191818;
+        font-family: 'golden', cursive;
+    }
+    .box4{background: black;
+        font-family: 'golden', cursive;
+    }
 
