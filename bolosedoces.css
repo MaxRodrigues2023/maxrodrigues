@@ -7,8 +7,8 @@ body {
 }
 header {
     background-color: #ff6f61;
-    color: white;
-    padding: 20px 0;
+    color: #ff6f61;
+    padding: 60px 0;
     text-align: center;
     font-family: 'Great Vibes', cursive;
     background-image: url('BOLO.png'); /* Substitua pelo caminho da sua imagem */
@@ -18,7 +18,7 @@ header {
 }
 header h1 {
     margin: 0;
-    font-size: 70px;
+    font-size: 80px;
 }
 
 nav ul {
@@ -62,7 +62,7 @@ aside {
 }
 footer {
     background-color: #ff6f61;
-    color: white;
+    color: #ffccbc;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
@@ -80,7 +80,7 @@ footer a:hover {
     text-align: center;
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
-    color: rgb(187, 14, 106);
+    color: rgb(224, 13, 126);
 }
 #home p {
     text-align: center;
@@ -90,25 +90,25 @@ footer a:hover {
     text-align: left;
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
-    color: rgb(187, 14, 106);
+    color: rgb(224, 13, 126);
 }
 #bolos p {
     text-align: left;
     
 }
 section p {
-    color: rgb(187, 14, 106);
+    color: rgb(224, 13, 126);
     font-family: 'golden', cursive;
 }
 ul {
-    color: rgb(187, 14, 106);
+    color: rgb(224, 13, 126);
     font-family: 'golden', cursive;
 }
 #doces h2 {
     text-align: left;
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
-    color: rgb(187, 14, 106);
+    color: rgb(224, 13, 126);
 
 }
 #doces p {
